@@ -1,4 +1,4 @@
-*Meu Currículo — Ana Lívia Oliveira*
+# Meu Currículo — Ana Lívia Oliveira
 
 Pequeno site estático que contém o currículo e informações de meu contato.
 
