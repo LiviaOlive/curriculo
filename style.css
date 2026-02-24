@@ -2,3 +2,19 @@
     width: 400px;
     height: auto;
 }
+
+.foto-objetivo {
+    width: 600px;
+    height: auto;
+}
+
+.subtitulos {
+    font-size: 96px;
+    font-family: 'Goldman', sans-serif;
+}
+
+.texto-info {
+    font-size: 16px; /* Tamanho padrão para textos */
+    color: #e0e0e0; /* Um branco um pouco mais suave para não doer os olhos */
+    max-width: 800px; /* Evita que o texto fique comprido demais na tela inteira */
+}
