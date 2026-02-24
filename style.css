@@ -3,11 +3,11 @@
     height: auto;
 }
 
-.body {
-    background-color: #1E1E1E;
-}
-
 .foto-objetivo {
     width: 600px;
     height: auto;
+}
+
+.subtitulos {
+    font-size: 96px;;
 }
