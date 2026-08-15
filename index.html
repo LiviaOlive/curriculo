@@ -4,36 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <title>Meu Currículo</title>
+    <title>Meu Currículo - Ana Lívia Oliveira</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" 
-    rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <style>
-        body {
-            background-color: #1E1E1E;
-            color: white;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    </style>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="titulos">ANA LÍVIA OLIVEIRA</h1>
-    <h2>FULL STACK DEVELOPER</h2>
-    <h2>APRENDENDO DIARIAMENTE</h2>
-    <h2>HTML, CSS, JAVASCRIPT, REACT, SPRINGBOOT, MYSQL</h2>
-    <img src="imagens/ana-livia.png" class="foto-perfil" alt="Ana Lívia Oliveira">
-    <p>Juazeiro do Norte, CE</p>
-    <p>(88) 99233-1857</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/ana-livia-oliveiraa/" target="_blank" rel="external">https://www.linkedin.com/in/ana-livia-oliveiraa/</a></p>
-    <p>GitHub: <a href=" https://github.com/LiviaOlive" target="_blank" rel="external">https://github.com/LiviaOlive</a></p>
-    <h2 class="titulos">OBJETIVO</h2>
-    <p class="texto-info">Atuar como Desenvolvedora Web Júnior, aplicando sólida base em lógica e programação. Com muita paixão pelo trabalho e pelo aprendizado. Buscando sempre melhorar com novas experiências e desafios. </p>
-    <img src="imagens/objetivo.jpg" alt="código html" class="foto-objetivo">
 
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#curriculo">Meu currículo</a></li>
+                <li><a href="#objetivo">Objetivo</a></li>
+                <li><a href="#experiencia">Experiência Profissional</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#formacao">Formação Acadêmica</a></li>
+                <li><a href="#skills">Hard Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        
+        <section id="curriculo">
+            <h1 class="titulos">ANA LÍVIA OLIVEIRA</h1>
+            
+            <div class="layout-duas-colunas">
+                <div class="coluna-esquerda">
+                    <img src="imagens/ana-livia.png" class="foto-perfil" alt="Ana Lívia Oliveira">
+                    
+                    <div class="contatos">
+                        <p>Juazeiro do Norte, CE</p>
+                        <p>(88) 99233-1857</p>
+                        <p>GITHUB: <a href="https://github.com/LiviaOlive" target="_blank" rel="external">/LiviaOlive</a></p>
+                        <p>LINKEDIN: <a href="https://www.linkedin.com/in/ana-livia-oliveiraa/" target="_blank" rel="external">/ana-livia-oliveiraa</a></p>
+                    </div>
+                </div>
+                
+                <div class="coluna-direita cargos">
+                    <h2>FULL STACK DEVELOPER</h2>
+                    <h2>APRENDENDO DIARIAMENTE</h2>
+                    <h2>HTML, CSS, JAVASCRIPT, REACT, SPRINGBOOT, MYSQL</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="objetivo">
+            <h2 class="subtitulos">OBJETIVO</h2>
+            <div class="layout-duas-colunas">
+                <div class="coluna-texto">
+                    <p class="texto-info">Atuar como Desenvolvedora Web Júnior, aplicando sólida base em lógica e programação. Com muita paixão pelo trabalho e pelo aprendizado. Buscando sempre melhorar com novas experiências e desafios.</p>
+                </div>
+                <div class="coluna-imagem">
+                    <img src="imagens/objetivo.jpg" alt="Código HTML" class="foto-objetivo">
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia">
+            <h2 class="subtitulos">EXPERIÊNCIA PROFISSIONAL</h2>
+            <div class="layout-duas-colunas">
+                <div class="coluna-texto">
+                    <h3 class="cargo-titulo">COMPASS UOL | Estagiária de Quality Assurance (QA)</h3>
+                    <ul class="texto-info lista-experiencia">
+                        <li>Desenvolvimento e manutenção de scripts de testes automatizados utilizando Robot Framework e Python.</li>
+                        <li>Execução de testes manuais, exploratórios e de regressão em aplicações Web e API.</li>
+                        <li>Participação ativa em rituais de metodologia ágil (Scrum), incluindo Dailies e Plannings.</li>
+                        <li>Reporte de bugs e elaboração de planos de teste detalhados.</li>
+                    </ul>
+                </div>
+                <div class="coluna-imagem flex-coluna">
+                    <img src="imagens/logo-compass.png" alt="Logo Compass UOL" class="foto-logo">
+                    <img src="imagens/equipe.jpg" alt="Equipe trabalhando" class="foto-objetivo">
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2 class="subtitulos">PORTFÓLIO</h2>
+            <div class="coluna-texto">
+                <h3 class="cargo-titulo">TESTES - CINEMA APP</h3>
+                <p class="texto-info">Testes manuais, automação de testes, desenvolvimento de suíte de testes E2E e API para aplicação de gerenciamento de cinema. Foco em cenários críticos, validação de CRUD e testes de integração utilizando Robot Framework.</p>
+                <br>
+                <p class="texto-info">Testes desenvolvidos durante estágio na Compass Uol para o projeto "Cinema App".</p>
+            </div>
+        </section>
+
+        <section id="formacao">
+            <h2 class="subtitulos">FORMAÇÃO ACADÊMICA</h2>
+            </section>
+
+
+    </main>
 </body>
 </html>
